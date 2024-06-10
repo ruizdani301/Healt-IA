@@ -1,0 +1,15 @@
+.nav {
+  display: flex;
+  justify-content: space-between;
+  width: 20%;
+  align-items: center;
+  font-weight: bold;
+}
+/* Media query para pantallas de celular */
+@media (max-width: 768px) {
+  .nav {
+    flex-direction: column;
+    width: 100%;
+    align-items: flex-start;
+  }
+}
